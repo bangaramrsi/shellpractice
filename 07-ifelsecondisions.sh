@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COURSE=$1
+COURSE=DEVOPS
 
 if [ "$COUSRE" == "DEVOPS" ]
 then
