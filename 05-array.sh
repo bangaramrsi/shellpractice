@@ -1,0 +1,6 @@
+#!/bin/bash
+
+COURSES=("DEVOPS" "AWS" "AZURE")
+
+
+echo "PERSON1 IS LEARNING ${COURSES[0]}"
