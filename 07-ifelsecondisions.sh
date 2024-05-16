@@ -4,7 +4,7 @@ COURSE=$1
 
 if [ "$COUSRE" == "DEVOPS" ]
 then
-    echo "COURSE IS $COURSE AVAILABLE"
+    echo "COURSE IS  AVAILABLE"
 else
     echo "COURSE IS  NOT AVAILABLE"
 fi
