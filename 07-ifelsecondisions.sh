@@ -1,8 +1,8 @@
 #!/bin/bash
 
-COURSE=DEVOPS
+COURSE=$1
 
-if [ "$COUSRE" == "DEVOPS" ];
+if [ "$1" == "DEVOPS" ];
 then
     echo "COURSE IS  AVAILABLE"
 else
