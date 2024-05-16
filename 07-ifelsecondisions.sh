@@ -6,5 +6,5 @@ if [ "$COUSRE -eq DEVOPS" ]
 then
     echo "COURSE IS $COURSE AVAILABLE"
 else
-    echo "COURSE IS $COURSE NOT AVAILABLE"
+    echo "COURSE IS  NOT AVAILABLE"
 fi
