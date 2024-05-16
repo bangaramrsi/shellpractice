@@ -2,7 +2,7 @@
 
 COURSE=$1
 
-if [ "$COUSRE -eq DEVOPS" ]
+if [ "$COUSRE" == "DEVOPS" ]
 then
     echo "COURSE IS $COURSE AVAILABLE"
 else
