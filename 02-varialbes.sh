@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-PERSON1=jagan
-PERSON2=vijay
+PERSON1=naveen
+PERSON2=pramod
 
 
 echo "$PERSON1: hi $PERSON2 where r u"
