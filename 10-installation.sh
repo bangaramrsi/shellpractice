@@ -9,5 +9,5 @@ else
     echo "current user is super user"
 fi
 
-dnf install mysql -y
+yum install mysql -y
 
