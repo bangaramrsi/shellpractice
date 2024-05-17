@@ -9,3 +9,11 @@ else
     echo "You are a super user"
 fi
 
+yum install tree -y
+
+if [ $? ne 0]
+then    
+    echo "tree installation is failure"
+else
+    echo "tree installation is success"
+fi
