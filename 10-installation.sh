@@ -9,9 +9,9 @@ else
     echo "You are a super user"
 fi
 
-yum install tree -y
+sudo yum install tree -y
 
-if [ $? ne 0]
+if [ $? ne 0 ]
 then    
     echo "tree installation is failure"
 else
