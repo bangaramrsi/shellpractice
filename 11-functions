@@ -3,6 +3,8 @@
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
+
+TIMESTAP=$(date +%F-%H:%M:%S")
 then
     echo "please run this script with root access"
     exit 1 #manulally exit if error comes
