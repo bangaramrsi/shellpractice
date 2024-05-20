@@ -11,7 +11,7 @@ fi
 
 sudo yum install tree -y
 
-if [ $? ne 0]
+if [ $? ne 0 ]
 then    
     echo "tree installation is failure"
     exit 1
