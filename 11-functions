@@ -3,7 +3,7 @@
 USERID=$(id -u)
 TIMESTAP=$(date +%F-%H:%M:%S)
 SCRIPT_NAME=$($0 | cut -d "." -f1)
-
+LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 
 
 
@@ -19,14 +19,13 @@ fi
 
 
 
-sudo yum install tree -y
+sudo yum install mysql -y
 
 if [ "$? ne 0" ]
 then    
-    echo "tree installation is failure"
+    echo "mysql installation is failure"
     exit 1
 else
-    echo "tree installation is success"
+    echo "mysql installation is success"
 fi
 
-echo $TIMESTAMP
