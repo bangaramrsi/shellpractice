@@ -3,6 +3,8 @@
 USERID=$(id -u)
 TIMESTAP=$(date +%F-%H:%M:%S)
 
+echo $TIMESTAMP
+
 if [ $USERID -ne 0 ]
 then
     echo "please run this script with root access"
@@ -15,7 +17,7 @@ fi
 
 sudo yum install tree -y
 
-if [ $? ne 0 ]
+if [ "$? ne 0" ]
 then    
     echo "tree installation is failure"
     exit 1
