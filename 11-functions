@@ -2,6 +2,8 @@
 
 USERID=$(id -u)
 TIMESTAP=$(date +%F-%H:%M:%S)
+SCRIPT_NAME=$($0 | cut -d "." -f1)
+
 
 
 
@@ -14,7 +16,7 @@ else
 fi
 
 
-echo $TIMESTAMP
+
 
 
 sudo yum install tree -y
@@ -27,3 +29,4 @@ else
     echo "tree installation is success"
 fi
 
+echo $TIMESTAMP
