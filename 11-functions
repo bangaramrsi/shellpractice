@@ -3,7 +3,7 @@
 USERID=$(id -u)
 TIMESTAP=$(date +%F-%H:%M:%S)
 
-echo $TIMESTAMP
+
 
 if [ $USERID -ne 0 ]
 then
@@ -13,6 +13,8 @@ else
     echo "Your are a super user"
 fi
 
+
+echo $TIMESTAMP
 
 
 sudo yum install tree -y
